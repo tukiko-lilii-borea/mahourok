@@ -1,0 +1,15 @@
+{
+  "name": "mahourok-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "まほろく☆ 運用スクリプト置き場",
+  "scripts": {
+    "seed:preview": "node scripts/seed-posts.js",
+    "seed:commit": "node scripts/seed-posts.js --commit",
+    "seed:delete:preview": "node scripts/delete-seed-posts.js",
+    "seed:delete:commit": "node scripts/delete-seed-posts.js --commit"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+# Firebase Admin SDK サービスアカウント鍵（絶対にコミットしない）
+serviceAccountKey.json
+*firebase-adminsdk*.json
+
+# Node
+node_modules/
+npm-debug.log*
